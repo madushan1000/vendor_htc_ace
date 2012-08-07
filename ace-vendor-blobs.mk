@@ -15,6 +15,7 @@
 # Prebuilt libraries which are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
     vendor/htc/ace/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so \
+    vendor/htc/ace/proprietary/hw/audio.primary.msm7x30.so:obj/lib/hw/audio.primary.msm7x30.so \
     vendor/htc/ace/proprietary/hw/camera.default.so:obj/lib/hw/camera.default.so
 
 # misc blobs
@@ -26,6 +27,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ace/proprietary/rmt_storage:/system/bin/rmt_storage \
     vendor/htc/ace/proprietary/snd3254:/system/bin/snd3254 \
     vendor/htc/ace/proprietary/AudioBTID.csv:/system/etc/AudioBTID.csv \
+    vendor/htc/ace/proprietary/hw/audio.primary.msm7x30.so:system/lib/hw/audio.primary.msm7x30.so \
     vendor/htc/ace/proprietary/libaudioalsa.so:/system/lib/libaudioalsa.so \
     vendor/htc/ace/proprietary/libgemini.so:/system/lib/libgemini.so \
     vendor/htc/ace/proprietary/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
