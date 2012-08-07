@@ -37,7 +37,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ace/proprietary/lsc_camera:/system/bin/lsc_camera \
 	vendor/htc/ace/proprietary/libcamera_client.so:/system/lib/libcamera_client.so \
 	vendor/htc/ace/proprietary/libcameraface.so:/system/lib/libcameraface.so \
-	vendor/htc/ace/proprietary/libcameraapp.so:/system/lib/libcameraapp.so \
+	vendor/htc/ace/proprietary/libcamerapp.so:/system/lib/libcamerapp.so \
 	vendor/htc/ace/proprietary/libchromatix_ov8810_default_video.so:/system/lib/libchromatix_ov8810_default_video.so \
 	vendor/htc/ace/proprietary/libchromatix_ov8810_preview.so:/system/lib/libchromatix_ov8810_preview.so \
 	vendor/htc/ace/proprietary/libchromatix_ov8830_default_video.so:/system/lib/libchromatix_ov8830_default_video.so \
