@@ -14,7 +14,8 @@
 
 # Prebuilt libraries which are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
-    vendor/htc/ace/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so
+    vendor/htc/ace/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so \
+    vendor/htc/ace/proprietary/hw/camera.default.so:obj/lib/hw/camera.default.so
 
 # misc blobs
 PRODUCT_COPY_FILES += \
@@ -53,4 +54,5 @@ PRODUCT_COPY_FILES += \
 	vendor/htc/ace/proprietary/libchromatix_s5k4e5yx_preview.so:/system/lib/libchromatix_s5k4e5yx_preview.so \
     vendor/htc/ace/proprietary/libmmipl.so:/system/lib/libmmipl.so \
     vendor/htc/ace/proprietary/libmmjpeg.so:/system/lib/libmmjpeg.so \
-    vendor/htc/ace/proprietary/liboemcamera.so:/system/lib/liboemcamera.so
+    vendor/htc/ace/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \
+    vendor/htc/ace/proprietary/libOlaEngine.so:/system/lib/libOlaEngine.so
