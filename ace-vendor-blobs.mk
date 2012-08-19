@@ -14,6 +14,7 @@
 
 # Prebuilt libraries which are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
+    vendor/htc/ace/proprietary/hciattach:obj/bin/hciattach \
     vendor/htc/ace/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so \
     vendor/htc/ace/proprietary/hw/camera.default.so:obj/lib/hw/camera.default.so \
 	vendor/htc/ace/proprietary/hw/gps.spade.so:obj/lib/hw/gps.spade.so \
@@ -37,6 +38,16 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ace/proprietary/libhtc_ril.so:/system/lib/libhtc_ril.so \
     vendor/htc/ace/proprietary/libreference-ril.so:/system/lib/libreference-ril.so \
     vendor/htc/ace/proprietary/libril.so:/system/lib/libril.so
+	
+# bluetooth blobs
+PRODUCT_COPY_FILES += \
+    vendor/htc/ace/proprietary/bluetoothd:/system/bin/bluetoothd \
+    vendor/htc/ace/proprietary/brcmapd:/system/bin/brcmapd \
+    vendor/htc/ace/proprietary/btld:/system/bin/btld \
+    vendor/htc/ace/proprietary/hciattach:/system/bin/hciattach \
+    vendor/htc/ace/proprietary/libbluetooth.so:/system/lib/libbluetooth.so \
+    vendor/htc/ace/proprietary/libbluetoothd.so:/system/lib/libbluetoothd.so \
+    vendor/htc/ace/proprietary/libbluedroid.so:/system/lib/libbluedroid.so
 
 # camera blobs 
 PRODUCT_COPY_FILES += \
