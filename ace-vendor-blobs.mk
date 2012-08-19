@@ -16,12 +16,14 @@
 PRODUCT_COPY_FILES += \
     vendor/htc/ace/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so \
     vendor/htc/ace/proprietary/hw/camera.default.so:obj/lib/hw/camera.default.so \
+	vendor/htc/ace/proprietary/hw/gps.spade.so:obj/lib/hw/gps.spade.so \
     vendor/htc/ace/proprietary/libreference-ril.so:obj/lib/libreference-ril.so \
     vendor/htc/ace/proprietary/libril.so:obj/lib/libril.so
 
 
 # misc blobs
 PRODUCT_COPY_FILES += \
+    vendor/htc/ace/proprietary/hw/gps.spade.so:/system/lib/hw/gps.spade.so \
     vendor/htc/ace/proprietary/akmd:/system/bin/akmd \
     vendor/htc/ace/proprietary/bma150_usr:/system/bin/bma150_usr \
     vendor/htc/ace/proprietary/htc_ebdlogd:/system/bin/htc_ebdlogd \
