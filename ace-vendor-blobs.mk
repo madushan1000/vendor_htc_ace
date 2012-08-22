@@ -16,7 +16,7 @@
 PRODUCT_COPY_FILES += \
     vendor/htc/ace/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so \
     vendor/htc/ace/proprietary/hw/camera.default.so:obj/lib/hw/camera.default.so \
-	vendor/htc/ace/proprietary/hw/gps.spade.so:obj/lib/hw/gps.spade.so \
+    vendor/htc/ace/proprietary/hw/gps.spade.so:obj/lib/hw/gps.spade.so \
     vendor/htc/ace/proprietary/libreference-ril.so:obj/lib/libreference-ril.so \
     vendor/htc/ace/proprietary/libril.so:obj/lib/libril.so
 
@@ -43,22 +43,22 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ace/proprietary/hw/camera.default.so:/system/lib/hw/camera.default.so \
     vendor/htc/ace/proprietary/awb_camera:/system/bin/awb_camera \
     vendor/htc/ace/proprietary/lsc_camera:/system/bin/lsc_camera \
-	vendor/htc/ace/proprietary/libcamera_client.so:/system/lib/libcamera_client.so \
-	vendor/htc/ace/proprietary/libcameraface.so:/system/lib/libcameraface.so \
-	vendor/htc/ace/proprietary/libcamerapp.so:/system/lib/libcamerapp.so \
-	vendor/htc/ace/proprietary/libchromatix_ov8810_default_video.so:/system/lib/libchromatix_ov8810_default_video.so \
-	vendor/htc/ace/proprietary/libchromatix_ov8810_preview.so:/system/lib/libchromatix_ov8810_preview.so \
-	vendor/htc/ace/proprietary/libchromatix_ov8830_default_video.so:/system/lib/libchromatix_ov8830_default_video.so \
-	vendor/htc/ace/proprietary/libchromatix_ov8830_hfr.so:/system/lib/libchromatix_ov8830_hfr.so \
-	vendor/htc/ace/proprietary/libchromatix_ov8830_preview.so:/system/lib/libchromatix_ov8830_preview.so \
-	vendor/htc/ace/proprietary/libchromatix_s5k3h1gx_default_video.so:/system/lib/libchromatix_s5k3h1gx_default_video.so \
-	vendor/htc/ace/proprietary/libchromatix_s5k3h1gx_preview.so:/system/lib/libchromatix_s5k3h1gx_preview.so \
-	vendor/htc/ace/proprietary/libchromatix_s5k3h2yx_default_video.so:/system/lib/libchromatix_s5k3h2yx_default_video.so \
-	vendor/htc/ace/proprietary/libchromatix_s5k3h2yx_hfr.so:/system/lib/libchromatix_s5k3h2yx_hfr.so \
-	vendor/htc/ace/proprietary/libchromatix_s5k3h2yx_preview.so:/system/lib/libchromatix_s5k3h2yx_preview.so \
-	vendor/htc/ace/proprietary/libchromatix_s5k4e5yx_default_video.so:/system/lib/libchromatix_s5k4e5yx_default_video.so \
-	vendor/htc/ace/proprietary/libchromatix_s5k4e5yx_hfr.so:/system/lib/libchromatix_s5k4e5yx_hfr.so \
-	vendor/htc/ace/proprietary/libchromatix_s5k4e5yx_preview.so:/system/lib/libchromatix_s5k4e5yx_preview.so \
+    vendor/htc/ace/proprietary/libcamera_client.so:/system/lib/libcamera_client.so \
+    vendor/htc/ace/proprietary/libcameraface.so:/system/lib/libcameraface.so \
+    vendor/htc/ace/proprietary/libcamerapp.so:/system/lib/libcamerapp.so \
+    vendor/htc/ace/proprietary/libchromatix_ov8810_default_video.so:/system/lib/libchromatix_ov8810_default_video.so \
+    vendor/htc/ace/proprietary/libchromatix_ov8810_preview.so:/system/lib/libchromatix_ov8810_preview.so \
+    vendor/htc/ace/proprietary/libchromatix_ov8830_default_video.so:/system/lib/libchromatix_ov8830_default_video.so \
+    vendor/htc/ace/proprietary/libchromatix_ov8830_hfr.so:/system/lib/libchromatix_ov8830_hfr.so \
+    vendor/htc/ace/proprietary/libchromatix_ov8830_preview.so:/system/lib/libchromatix_ov8830_preview.so \
+    vendor/htc/ace/proprietary/libchromatix_s5k3h1gx_default_video.so:/system/lib/libchromatix_s5k3h1gx_default_video.so \
+    vendor/htc/ace/proprietary/libchromatix_s5k3h1gx_preview.so:/system/lib/libchromatix_s5k3h1gx_preview.so \
+    vendor/htc/ace/proprietary/libchromatix_s5k3h2yx_default_video.so:/system/lib/libchromatix_s5k3h2yx_default_video.so \
+    vendor/htc/ace/proprietary/libchromatix_s5k3h2yx_hfr.so:/system/lib/libchromatix_s5k3h2yx_hfr.so \
+    vendor/htc/ace/proprietary/libchromatix_s5k3h2yx_preview.so:/system/lib/libchromatix_s5k3h2yx_preview.so \
+    vendor/htc/ace/proprietary/libchromatix_s5k4e5yx_default_video.so:/system/lib/libchromatix_s5k4e5yx_default_video.so \
+    vendor/htc/ace/proprietary/libchromatix_s5k4e5yx_hfr.so:/system/lib/libchromatix_s5k4e5yx_hfr.so \
+    vendor/htc/ace/proprietary/libchromatix_s5k4e5yx_preview.so:/system/lib/libchromatix_s5k4e5yx_preview.so \
     vendor/htc/ace/proprietary/libmmipl.so:/system/lib/libmmipl.so \
     vendor/htc/ace/proprietary/libmmjpeg.so:/system/lib/libmmjpeg.so \
     vendor/htc/ace/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \
