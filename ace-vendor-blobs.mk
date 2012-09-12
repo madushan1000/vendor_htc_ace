@@ -61,4 +61,5 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ace/proprietary/libmmipl.so:/system/lib/libmmipl.so \
     vendor/htc/ace/proprietary/libmmjpeg.so:/system/lib/libmmjpeg.so \
     vendor/htc/ace/proprietary/liboemcamera.so:/system/lib/liboemcamera.so \
-    vendor/htc/ace/proprietary/libOlaEngine.so:/system/lib/libOlaEngine.so
+    vendor/htc/ace/proprietary/libOlaEngine.so:/system/lib/libOlaEngine.so \
+    vendor/htc/ace/proprietary/libposteffect.so:/system/lib/libposteffect.so
