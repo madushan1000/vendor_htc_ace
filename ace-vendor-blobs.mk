@@ -16,10 +16,7 @@
 PRODUCT_COPY_FILES += \
     vendor/htc/ace/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so \
     vendor/htc/ace/proprietary/hw/camera.default.so:obj/lib/hw/camera.default.so \
-    vendor/htc/ace/proprietary/hw/gps.spade.so:obj/lib/hw/gps.spade.so \
-    vendor/htc/ace/proprietary/libreference-ril.so:obj/lib/libreference-ril.so \
-    vendor/htc/ace/proprietary/libril.so:obj/lib/libril.so
-
+    vendor/htc/ace/proprietary/hw/gps.spade.so:obj/lib/hw/gps.spade.so
 
 # misc blobs
 PRODUCT_COPY_FILES += \
@@ -34,9 +31,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/ace/proprietary/libaudioalsa.so:/system/lib/libaudioalsa.so \
     vendor/htc/ace/proprietary/libgemini.so:/system/lib/libgemini.so \
     vendor/htc/ace/proprietary/libhtc_acoustic.so:/system/lib/libhtc_acoustic.so \
-    vendor/htc/ace/proprietary/libhtc_ril.so:/system/lib/libhtc_ril.so \
-    vendor/htc/ace/proprietary/libreference-ril.so:/system/lib/libreference-ril.so \
-    vendor/htc/ace/proprietary/libril.so:/system/lib/libril.so
+    vendor/htc/ace/proprietary/libhtc_ril.so:/system/lib/libhtc_ril.so
 
 # camera blobs 
 PRODUCT_COPY_FILES += \
